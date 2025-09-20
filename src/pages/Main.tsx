@@ -47,7 +47,7 @@ const Main = () => {
               title={d.title}
               number={d.number}
               login={d.user.login}
-              labels = "{JSON.stringify(d.labels)}"
+              lables = "{JSON.stringify(d.labels)}"
             />
           </div>
         );
