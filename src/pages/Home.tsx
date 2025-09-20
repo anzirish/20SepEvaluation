@@ -9,7 +9,7 @@ const Home = () => {
   const submitHandler = (e: React.FormEvent) => {
     e.preventDefault();
     if (!owner.trim() || !repoName.trim()) return;
-    navigate(`/repo/:${owner}/:${repoName}`);
+    navigate(`/repo/${owner}/${repoName}`);
   };
 
   return (
