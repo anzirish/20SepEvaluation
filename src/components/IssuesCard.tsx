@@ -2,7 +2,7 @@ const IssuesCard = (data: {
   title: string;
   number: number;
   login: string;
-  lables: [];
+  lables: string;
 }) => {
   return (
     <>
